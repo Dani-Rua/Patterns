@@ -1,4 +1,4 @@
-📌 Sistema de Gestión de Pedidos para Restaurante de Comida Rápida
+#📌 Sistema de Gestión de Pedidos para Restaurante de Comida Rápida
 
 📝 Descripción del Problema
 
