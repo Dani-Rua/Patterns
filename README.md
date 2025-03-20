@@ -40,40 +40,65 @@ Cada tipo de combo incluye diferentes combinaciones de comidas, bebidas, ensalad
   
 
 
+
+
 # Prototype
 
-## Sistema de Gestión de Documentos
+## Sistema de Paquetes Turísticos para Agencia de Viajes
+📝 Descripción del Problema
+Una agencia de viajes ofrece diversos paquetes turísticos a sus clientes, incluyendo:
 
-## Contexto del problema
-La empresa "DocuSolutions" ofrece un sistema de gestión documental para profesionales y empresas. Los usuarios necesitan crear frecuentemente documentos como contratos, currículums e informes, pero el proceso de crear estos documentos desde cero es tedioso y propenso a errores.
+- **🏝️ Tour Sigiriya**
+- **💑 Tour de Luna de Miel**
+- **🏔️ Tour por la Región Montañosa**
+- **🏙️ Tour Urbano**
 
-## Los usuarios pierden tiempo valioso:
+## Cada tour está compuesto por múltiples elementos como:
 
-- Dando formato a documentos nuevos.
-- Recordando qué secciones incluir en cada tipo de documento.
-- Manteniendo consistencia entre documentos similares.
-- Actualizando manualmente múltiples documentos cuando cambia alguna información estándar.
+- **🏨 Alojamientos**
+- **🚗 Transporte**
+- **🍽️ Comidas incluidas**
+- **🎭 Actividades y excursiones**
+- **🧑‍🔧 Guías turísticos**
 
-# Implementación
+Actualmente, cuando un cliente solicita un paquete personalizado, los agentes deben crear completamente un nuevo objeto Tour desde cero, configurando manualmente todos los componentes aunque muchos sean idénticos a tours existentes. Este proceso es:
 
-## Componentes principales:
+- **⏰ Lento e ineficiente**
+- **⚠️ Propenso a errores**
+- **🔄 Repetitivo**
+- **🧩 Difícil de mantener consistente**
 
-## Prototipo de documento:
+# ✅ Requisitos del Sistema
+## El sistema debe permitir:
 
-Interfaz base que define la estructura común y el método de clonación
-Contiene información básica como título, fecha, autor y secciones
+- **📌 Creación de Tours Base: Definir paquetes turísticos estándar que sirvan como plantillas.**
+- **🔄 Clonación de Tours: Permitir copiar rápidamente un tour existente como punto de partida.**
+- **⚙️ Personalización Eficiente: Modificar solo los aspectos específicos que necesiten cambios.**
+- **📊 Gestión de Variantes: Manejar eficientemente múltiples variantes de un mismo tour base.**
+- **💸 Cálculo de Precios: Recalcular automáticamente los precios según las modificaciones realizadas.**
+- **📝 Historial de Personalizaciones: Mantener registro de las personalizaciones populares para convertirlas en nuevos prototipos.**
+
+# 🔄 Beneficios de la Solución con Patrón Prototype
+## La implementación del patrón Prototype ofrecerá:
+
+- **⚡ Mayor velocidad en la creación de paquetes personalizados**
+- **🎯 Precisión en la configuración de nuevos tours**
+- **🔄 Consistencia en la estructura y calidad de los paquetes**
+- **🛠️ Facilidad de mantenimiento al actualizar precios o políticas**
+- **🔍 Trazabilidad de las personalizaciones realizadas**
+
+# 💡 Caso de Uso Práctico
+Un agente de viajes atiende a una pareja que desea un Tour de Luna de Miel personalizado:
+
+El agente selecciona el prototipo "Tour de Luna de Miel Estándar"
+El sistema clona este prototipo, creando una copia exacta
+El agente personaliza solo los aspectos solicitados:
+
+Extiende la duración de 7 a 10 días
+Reemplaza un hotel por otro de preferencia
+Agrega una excursión adicional
+Cambia el tipo de transporte en una etapa del tour
 
 
-## Tipos de documentos concretos:
-
-- **Contrato**: Incluye cláusulas legales, información de partes involucradas y términos
-- **Currículum**: Contiene datos personales, experiencia, educación y habilidades
-- **Informe**: Estructurado con resumen ejecutivo, hallazgos, conclusiones y recomendaciones
-
-
-## Administrador de documentos:
-
-Mantiene un registro de todas las plantillas disponibles.
-Permite a los usuarios buscar y seleccionar plantillas adecuadas.
-Facilita la clonación y personalización de documentos.
+En lugar de recrear todo el paquete desde cero, el agente modifica únicamente los elementos necesarios, manteniendo toda la estructura y beneficios del paquete original.
   
