@@ -40,7 +40,7 @@ Cada tipo de combo incluye diferentes combinaciones de comidas, bebidas, ensalad
   
 
 ## 📌 Diagrama UML
-![WhatsApp Image 2025-03-22 at 7 37 55 AM](https://github.com/user-attachments/assets/72055e04-efc4-4daf-a92b-a25e8ccdb028)
+
 
 
 
@@ -103,4 +103,7 @@ Cambia el tipo de transporte en una etapa del tour
 
 
 En lugar de recrear todo el paquete desde cero, el agente modifica únicamente los elementos necesarios, manteniendo toda la estructura y beneficios del paquete original.
+
+## 📌 Diagrama UML
+![WhatsApp Image 2025-03-22 at 7 37 55 AM](https://github.com/user-attachments/assets/72055e04-efc4-4daf-a92b-a25e8ccdb028)
   
