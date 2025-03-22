@@ -39,6 +39,8 @@ Cada tipo de combo incluye diferentes combinaciones de comidas, bebidas, ensalad
 - **⏳ Optimización del Pedido**: Optimizar el proceso de pedido para reducir los tiempos de espera.
   
 
+## 📌 Diagrama UML
+![WhatsApp Image 2025-03-22 at 7 37 55 AM](https://github.com/user-attachments/assets/72055e04-efc4-4daf-a92b-a25e8ccdb028)
 
 
 
