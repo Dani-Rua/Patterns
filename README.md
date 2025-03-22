@@ -40,7 +40,8 @@ Cada tipo de combo incluye diferentes combinaciones de comidas, bebidas, ensalad
   
 
 ## 📌 Diagrama UML
-![imagen](https://github.com/user-attachments/assets/18f216ac-f2b7-4e0c-b790-e0cdae7c7a58)
+![FactoryMethod drawio](https://github.com/user-attachments/assets/544d747c-64b3-457f-b48a-c78e77980bb1)
+
 
 
 
