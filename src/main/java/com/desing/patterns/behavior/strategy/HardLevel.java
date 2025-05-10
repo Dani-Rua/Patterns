@@ -4,6 +4,6 @@ public class HardLevel implements DifficultyLevelStrategy
 {
     @Override
     public void modifyGameRules() {
-        System.out.println("Hard level: The game is very challenging.");
+        System.out.println("Game rules for hard level: Time limit reduced, complex scoring.");
     }
 }

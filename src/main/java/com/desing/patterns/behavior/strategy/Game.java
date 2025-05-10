@@ -1,7 +1,6 @@
 package com.desing.patterns.behavior.strategy;
 
-public class Game
-{
+public class Game {
     private DifficultyLevelStrategy difficultyLevelStrategy;
 
     public Game(DifficultyLevelStrategy difficultyLevelStrategy) {
