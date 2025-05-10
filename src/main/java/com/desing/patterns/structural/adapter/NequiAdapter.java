@@ -1,12 +1,10 @@
 package com.desing.patterns.structural.adapter;
 
-import lombok.AllArgsConstructor;
-
 public class NequiAdapter implements PaymentGateway{
 
-    private NequiPaymentGateway paymentGateway;
+    private Nequi paymentGateway;
 
-    public NequiAdapter (NequiPaymentGateway paymentGateway) {
+    public NequiAdapter (Nequi paymentGateway) {
         this.paymentGateway = paymentGateway;
     }
 

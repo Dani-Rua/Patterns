@@ -1,6 +1,6 @@
-package com.desing.patterns.creational.factoryMethod.foodItems;
+package com.desing.patterns.creational.prototype.factoryMethod.foodItems;
 
-import com.desing.patterns.creational.factoryMethod.abstracts.RegularOrders;
+import com.desing.patterns.creational.prototype.factoryMethod.abstracts.RegularOrders;
 
 public class Meals extends RegularOrders {
 

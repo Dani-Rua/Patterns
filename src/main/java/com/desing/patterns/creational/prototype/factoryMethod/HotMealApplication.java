@@ -1,8 +1,8 @@
-package com.desing.patterns.creational.factoryMethod;
+package com.desing.patterns.creational.prototype.factoryMethod;
 
-import com.desing.patterns.creational.factoryMethod.abstracts.Combos;
-import com.desing.patterns.creational.factoryMethod.combos.ComboCode;
-import com.desing.patterns.creational.factoryMethod.combos.ComboCreator;
+import com.desing.patterns.creational.prototype.factoryMethod.abstracts.Combos;
+import com.desing.patterns.creational.prototype.factoryMethod.combos.ComboCode;
+import com.desing.patterns.creational.prototype.factoryMethod.combos.ComboCreator;
 
 public class HotMealApplication {
 

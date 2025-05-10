@@ -1,4 +1,4 @@
-package com.desing.patterns.creational.factoryMethod.abstracts;
+package com.desing.patterns.creational.prototype.factoryMethod.abstracts;
 
 
 public abstract class RegularOrders {
