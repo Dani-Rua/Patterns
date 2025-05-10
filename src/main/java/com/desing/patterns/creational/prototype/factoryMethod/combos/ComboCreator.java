@@ -1,6 +1,6 @@
-package com.desing.patterns.creational.factoryMethod.combos;
+package com.desing.patterns.creational.prototype.factoryMethod.combos;
 
-import com.desing.patterns.creational.factoryMethod.abstracts.Combos;
+import com.desing.patterns.creational.prototype.factoryMethod.abstracts.Combos;
 
 import java.util.Map;
 import java.util.Optional;

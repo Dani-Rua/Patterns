@@ -1,4 +1,4 @@
-package com.desing.patterns.creational.factoryMethod.abstracts;
+package com.desing.patterns.creational.prototype.factoryMethod.abstracts;
 
 import java.util.ArrayList;
 import java.util.List;
